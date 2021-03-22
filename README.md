@@ -39,14 +39,14 @@ Tip: In order to understand power2 metod:
   power & 0x1 ----> 0001  so if(1)\
 
    -Third  iteration:
-	power = 2 (Decimal) = 0010 (Binary) (even number)
+	power = 2 (Decimal) = 0010 (Binary) (even number)\
 	power ------------> 0010\
         0x1   ---------------> 0001\
 	---------------------------\
   power & 0x1 ----> 0000  so if(0)\
 
    -Fourth  iteration:
-	power = 1 (Decimal) = 0001 (Binary) (odd number)
+	power = 1 (Decimal) = 0001 (Binary) (odd number)\
 	power ------------> 0001\
         0x1   ---------------> 0001\
 	---------------------------\
