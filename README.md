@@ -80,3 +80,16 @@ Main goal is: Given a sorted array of integers and searching for a key. Implemen
 - Best case of time complexity of binarySearch metod : T(n) = 1 ( O(1) )
 - Average (expected) case of time complexity of binarySearch metod: T(n) = 1.5 + 2.5logn
 - Worst case of time complexity of binarySearch metod: T(n) = 3+ 5logn (logn)
+
+### TimeVsSpaceTradeoff
+
+Main goal is: Given an array of numbers, determine if there are two numbers with the same value.
+
+- T(n) Time complexity of hasDuplicates1 metod : T(n) = O(n^2)
+- S(n) Space complexity of hasDuplicates1 metod: S(n) = O(n)
+
+- T(n) Time complexity of hasDuplicates2 metod : T(n) = O(nlogn)
+- S(n) Space complexity of hasDuplicates2 metod: S(n) = O(n)
+
+- T(n) Time complexity of hasDuplicates2 metod : T(n) = O(n)
+- S(n) Space complexity of hasDuplicates2 metod: S(n) = O(n) (But requires O(n) extra space because of unordered_set)
