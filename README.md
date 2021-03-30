@@ -94,3 +94,5 @@ Main goal is: Given an array of numbers, determine if there are two numbers with
 
 - T(n) Time complexity of hasDuplicates2 metod : T(n) = O(n)
 - S(n) Space complexity of hasDuplicates2 metod: S(n) = O(n) (But requires O(n) extra space because of unordered_set)
+
+Resources: http://www.cplusplus.com/reference/unordered_set/unordered_set/, https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/
