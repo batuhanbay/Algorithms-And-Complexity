@@ -6,12 +6,16 @@
 
 Main goal is: Finding sum of array of numbers.
 
+Analysis Time & Space Compexity:
+
 - Time complexity of sum metod : T(n) = 3n + 3 ( O(n) )
 - Space comlexity of sum metod : S(n) = n + 2
 
 ### PowerOfNumber
 
 Main goal is: Compute number of power which is for positive integer. It has been ignored for some base cases.
+
+Analysis Time & Space Compexity:
 
 - Time complexity of power1 metod : T(n) = 3n + 2 ( O(n) )
 - Space comlexity of power1 metod : S(n) = 3
@@ -56,6 +60,7 @@ Tip: In order to understand power2 metod:
 
 Main Goal is: Given a positive number "n", return true if it is a prime number otherwise return false.
 
+Analysis Time & Space Compexity:
 
 - Time complexity of isPrime1 metod : T(n) = 3n - 2 ( O(n) )
 - Time complexity of isPrime2 metod : T(n) = 3(√n) + 4 ( O(logn) )
@@ -64,11 +69,15 @@ Main Goal is: Given a positive number "n", return true if it is a prime number o
 
 Main goal is: Given two NxN matrices A and B. Compute the AxB.
 
+Analysis Time & Space Compexity:
+
 - Time complexity of matrixMultiply metod : T(n) =  n^3 + n^2 ( O(n^3) )
 
 ### LinearSearch
 
 Main goal is: Given an array of numbers and key. Implement an algorithm that returns the index of the array where the key is stored. If the key does not exist in the array, metod returns -1.
+
+Analysis Time & Space Compexity:
 
 - Best case of time complexity of linearSearch metod : T(n) = 5 ( O(1) )
 - Average (expected) case of time complexity of linearSearch metod: T(n) = 1.5n + 2
@@ -78,6 +87,8 @@ Main goal is: Given an array of numbers and key. Implement an algorithm that ret
 
 Main goal is: Given a sorted array of integers and searching for a key. Implement an algorithm that returns the index of the array where the key is stored. If the key does not exist in the array, metod returns -1.
 
+Analysis Time & Space Compexity:
+
 - Best case of time complexity of binarySearch metod : T(n) = 1 ( O(1) )
 - Average (expected) case of time complexity of binarySearch metod: T(n) = 1.5 + 2.5logn
 - Worst case of time complexity of binarySearch metod: T(n) = 3+ 5logn (logn)
@@ -85,6 +96,8 @@ Main goal is: Given a sorted array of integers and searching for a key. Implemen
 ### TimeVsSpaceTradeoff
 
 Main goal is: Given an array of numbers, determine if there are two numbers with the same value.
+
+Analysis Time & Space Compexity:
 
 - T(n) Time complexity of hasDuplicates1 metod : T(n) = O(n^2)
 - S(n) Space complexity of hasDuplicates1 metod: S(n) = O(n)
@@ -108,3 +121,12 @@ Shortly Briefing: Before starting recursively computing sum of the numbers, We n
 <img src="images/MemorySpaceOfProgram.png" width="600">
 
 For example the screenshoot which is at above is visualization of the explanation. When Sum1 function is called and than  begin to  implementation of fucntion, local variable and parameters of function are stored in stack temporary. When function return the result of function, local variables and paremeters of functions which are x, y and z will be deleted from stack. At the end, When main function is complete its mission, lacal varaible of main function also will be deleted from stack.
+
+### Addition
+
+Main goal is: Consider the problem of computing the sum of numbers from 1 to n which is passed to function as a paramater.
+
+Analysis Time & Space Compexity:
+
+- T(n) Time complexity of Sum1 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n-1) + 1 -> O(n)
+- S(n) Space complexity of Sum1 metod: O(n) , there are "n" invocation frames on the stack at the same time.
