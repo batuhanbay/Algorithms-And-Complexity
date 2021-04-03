@@ -138,3 +138,9 @@ Analysis Time & Space Compexity:
 - T(n) Time complexity of Sum3 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n-1) + 1 -> O(n)
 - S(n) Space complexity of Sum3 metod: O(n) , there are "n" invocation frames on the stack at the same time.
 - Recursion  depth of Sum2 method is O(logn)
+
+### Power
+
+Main goal is:  Compute number of power which is for positive integer by recursively. It has been ignored for some base cases.
+
+- T(n) Time complexity of Power1 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n-1) + 1 -> O(n)
