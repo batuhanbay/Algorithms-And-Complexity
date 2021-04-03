@@ -132,3 +132,7 @@ Analysis Time & Space Compexity:
 - S(n) Space complexity of Sum1 metod: O(n) , there are "n" invocation frames on the stack at the same time.
 - T(n) Time complexity of Sum2 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n-1) + 1 -> O(n)
 - S(n) Space complexity of Sum2 metod: O(n) , there are "n" invocation frames on the stack at the same time.
+- Recursion  depth of Sum2 method is O(n)
+- T(n) Time complexity of Sum3 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n-1) + 1 -> O(n)
+- S(n) Space complexity of Sum3 metod: O(n) , there are "n" invocation frames on the stack at the same time.
+- Recursion  depth of Sum2 method is O(logn)
