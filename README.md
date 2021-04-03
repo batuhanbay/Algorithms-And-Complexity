@@ -143,5 +143,16 @@ Analysis Time & Space Compexity:
 
 Main goal is:  Compute number of power which is for positive integer by recursively. It has been ignored for some base cases.
 
+Analysis Time & Space Compexity:
+
 - T(n) Time complexity of Power1 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n-1) + 1 -> O(n)
 - T(n) Time complexity of Power2 metod : if n = 1 (Base case) -> T(1) = 1 -> O(1), if n > 1 T(n) = T(n/2) + 1 -> O(logn)
+
+### LinearSearch
+
+Main goal is: Given an array of numbers and key. Implement an algorithm that returns the index of the array where the key is stored by recursively. If the key does not exist in the array, metod returns -1.
+
+Analysis Time & Space Compexity:
+
+- Best case of time complexity of ForwardLinearSearch metod : T(n) = O(1)
+- Time complexity of ForwardLinearSearch metod: T(n) = O(n)
