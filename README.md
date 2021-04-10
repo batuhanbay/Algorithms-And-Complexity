@@ -160,6 +160,31 @@ Analysis Time & Space Compexity:
 
 ## 03 - Basic Sorting Algorithms
 
+Tip: In order to understand Swap metod: Consider parameters of method respectively a = 5 and b = 1.
+
+	a = 5 (Decimal) = 0101 (Binary)\
+	b = 1 (Decimal) = 0001 (Binary)\
+
+   -First  line (a = a ^ b) :\
+	a ------------> 0101\
+        b   ---------------> 0001\
+	---------------------------\
+  a ^ b ----> 0100 (Binary) , 4 (Decimal) so a = a ^ b --> a = 4
+
+      -Second line (b = a ^ b) :\
+	a ------------> 0100\
+        b   ---------------> 0001\
+	---------------------------\
+  a ^ b ----> 0101 (Binary) , 5 (Decimal) so b = a ^ b --> b = 5
+
+  -Thrid line (a = a ^ b) :\
+	a ------------> 0100\
+        b   ---------------> 0101\
+	---------------------------\
+  a ^ b ----> 0001 (Binary) , 1 (Decimal) so a = a ^ b --> a = 1
+
+End of the Processing Swap function ```a``` equels to 1 and ```b``` equels to 5
+
 ### SelectionSort
 
 Main goal is: Given a collection of elements, the goal is to rearrange them in some order. Common examples are sorting an array alphabetically or from smallest to largest. In this case, sorting an array from smallest to largest.
@@ -167,3 +192,21 @@ Main goal is: Given a collection of elements, the goal is to rearrange them in s
 Analysis Time & Space Compexity:
 
 -T(n) Time complexity of SelectionSort metod : T(n) = O(n^2)
+
+Things to consider:
+
+- Sorting In Place: Yes
+- Stable : No
+
+### BubbleSort
+
+Main goal is: Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+
+Analysis Time & Space Compexity:
+
+-T(n) Time complexity of SelectionSort metod : T(n) = O(n^2)
+
+Things to consider:
+
+- Sorting In Place: Yes
+- Stable : Yes
