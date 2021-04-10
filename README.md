@@ -160,30 +160,32 @@ Analysis Time & Space Compexity:
 
 ## 03 - Basic Sorting Algorithms
 
-Tip: In order to understand Swap metod: Consider parameters of method respectively a = 5 and b = 1.
+Tip: In order to understand Swap metod: 
+
+```Consider parameters of method respectively a = 5 and b = 1.```
 
 	a = 5 (Decimal) = 0101 (Binary)\
 	b = 1 (Decimal) = 0001 (Binary)\
 
    -First  line (a = a ^ b) :\
-	a ------------> 0101\
+	a ---------------> 0101\
         b   ---------------> 0001\
 	---------------------------\
   a ^ b ----> 0100 (Binary) , 4 (Decimal) so a = a ^ b --> a = 4
 
-      -Second line (b = a ^ b) :\
-	a ------------> 0100\
+   -Second line (b = a ^ b) :\
+	a ---------------> 0100\
         b   ---------------> 0001\
 	---------------------------\
   a ^ b ----> 0101 (Binary) , 5 (Decimal) so b = a ^ b --> b = 5
 
   -Thrid line (a = a ^ b) :\
-	a ------------> 0100\
+	a ---------------> 0100\
         b   ---------------> 0101\
 	---------------------------\
   a ^ b ----> 0001 (Binary) , 1 (Decimal) so a = a ^ b --> a = 1
 
-End of the Processing Swap function ```a``` equels to 1 and ```b``` equels to 5
+End of the Processing Swap function ```a``` equals to 1 and ```b``` equals to 5
 
 ### SelectionSort
 
