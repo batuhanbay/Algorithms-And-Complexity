@@ -156,3 +156,14 @@ Analysis Time & Space Compexity:
 
 - Best case of time complexity of ForwardLinearSearch metod : T(n) = O(1)
 - Time complexity of ForwardLinearSearch metod: T(n) = O(n)
+
+
+## 03 - Basic Sorting Algorithms
+
+### SelectionSort
+
+Main goal is: Given a collection of elements, the goal is to rearrange them in some order. Common examples are sorting an array alphabetically or from smallest to largest. In this case, sorting an array from smallest to largest.
+
+Analysis Time & Space Compexity:
+
+-T(n) Time complexity of SelectionSort metod : T(n) = O(n^2)
