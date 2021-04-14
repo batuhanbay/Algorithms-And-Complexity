@@ -212,3 +212,17 @@ Things to consider:
 
 - Sorting In Place: Yes
 - Stable : Yes
+
+### InsertionSort
+
+Main goal is: Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+Analysis Time & Space Compexity:
+
+-Best case of time complexity of linearSearch metod : T(n) = 5 ( O(1) )
+-T(n) Time complexity of InsertionSort metod : T(n) = O(1)
+
+Things to consider:
+
+- Sorting In Place: Yes
+- Stable : Yes
