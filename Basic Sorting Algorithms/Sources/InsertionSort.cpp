@@ -15,6 +15,7 @@ int main() {
 
 	printf("Sorted sequence:\n");
 	for (auto n : A) cout << n << ", ";
+
 	cout << "\b\b \n";
 	return 0;
 } // end-main
