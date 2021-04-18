@@ -225,4 +225,17 @@ Analysis Time & Space Compexity:
 Things to consider:
 
 - Sorting In Place: Yes
-- Stable : Yes 
+- Stable : Yes
+
+### MergeSort
+
+Main goal is:  Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves.
+
+Analysis Time & Space Compexity:
+
+-T(n) Time complexity of MergeSort metod : T(n) =  2T(n/2) + n --> O(nlogn)
+
+Things to consider:
+
+- Sorting In Place: No
+- Stable : Yes
